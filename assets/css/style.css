@@ -238,29 +238,33 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 980px) {
   body {
-    width: 100%;
+    max-width: 85%;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
-    width: 100%;
+    max-width: 85%;
   }
 }
 
 @media screen and (max-width: 640px) {
   body {
-    width: 100%;
+    width: %;
   }
   #logo {
-    width: 640px;
+    max-width: 640px;
   }
   nav {
-    width: 640px;
+    max-width: 640px;
     float: left;
     margin-left: 170px;
   }
   
 }
+
+  .sidebar {
+    max-width: 95%;
+  }
